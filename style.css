@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7f7f, #ffccff); /* Gradient from rose to a light color */
+    margin: 0;
+    padding: 20px;
+    height: 100vh; /* Full height for the background */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgba(92, 103, 242, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(74, 84, 225, 0.8);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    color: #333; /* Style the result text */
+    font-weight: bold;
+}
